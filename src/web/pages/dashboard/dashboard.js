@@ -1,5 +1,5 @@
 import { Grid } from "@mui/material";
-import user from '../../../../src/asset/user.jpg'
+// import user from '../../../../src/asset/user.jpg'
 import './style.css'
 import { useNavigate } from "react-router-dom";
 

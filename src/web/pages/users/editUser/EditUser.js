@@ -8,7 +8,7 @@ import Notification from "../../../utils/Notification";
 import ErrorHandler from "../../../utils/ErrorHandler";
 
 const EditUser = () => {
-  var formData = new FormData();
+  // var formData = new FormData();
   const navigate = useNavigate();
   const url = window.location.pathname;
   const modeEdit = url.includes("edit") ? true : false;
@@ -42,9 +42,9 @@ const EditUser = () => {
     modeEdit ? updateRecord(editRecord.id, data) : saveRecord(data);
   };
 
-  const onFinishFailed = (errorInfo) => {
-    console.log("Failed:", errorInfo);
-  };
+  // const onFinishFailed = (errorInfo) => {
+  //   console.log("Failed:", errorInfo);
+  // };
 
   return (
     <div className="edit-user-main">
